@@ -1,0 +1,42 @@
+Ejercicio con archivos
+
+La empresa Software International te ha contratado como programador Java, y te han asignado la siguente tarea:
+la empresa luego de varios escandalos de robos de identidad en los sistemas disenados por la misma
+ha desidido implementar autentiacion utilizando desafio de preguntas en algunos de sus sistemas es decir los usuarios deben responder una pregunta de seguridad de las 3 posibles que ya registraron anteriormente para poder logearse en los sistemas.
+
+criteria:
+
+1) Disene un programa que dado un id de usuario me permita guardar 3 preguntas de seguridad
+2) luego de guardadas mis preguntas al momento de logerame en la aplicacion debe pedirme unas de las 3 preguntas que introduje anteriormente.
+3) si fallo 3 intentos el programa debe terminar pero al volver a correrlo y e intentar logearme debe pedirme hacer el paso 2
+4) si me logee con exito el programa me muestra mis 3 preguntas de seguridad
+
+
+
+Programa realizado por consola
+
+
+ejemplo diseno
+-------------------------------------------------------------------
+=================App Empresa Software International================
+-------------------------------------------------------------------
+Menu de obciones (n)
+
+1............................................Para crear un usuario
+2............................................Logearme en el sistema
+3............................................Salir del sistema
+
+
+Al pulsar las obciones debe de
+
+1 - pedirme un id de usuario y preguntarme mis 3 preguntas de seguridad
+2 - Pedirme una pregunta de seguridad al azar (luego de 3 intentos salir) nota: luego de elegir la pregunta al azar debe preguntarme la misma las 3 veces. Si me logeo con exito debe mostrarme las 3 preguntas de seguridad que introduje
+3 - Salir del sistema
+
+
+
+Restinciones
+
+usuario A con no puede logearse con preguntas de seguridad del usuario B
+el id puede tener cualquier formato pero debe ser unico
+
